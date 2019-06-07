@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DiscoTest" project="TP1_disco" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="ar.edu.unlam.pb2.tpdisco.DiscoTest" time="0.002">
+    <testcase name="testParaComprobarPerimetroInterior" classname="ar.edu.unlam.pb2.tpdisco.DiscoTest" time="0.002"/>
+    <testcase name="testQueCompruebaRadios" classname="ar.edu.unlam.pb2.tpdisco.DiscoTest" time="0.0"/>
+    <testcase name="testParaComprobarSuperficie" classname="ar.edu.unlam.pb2.tpdisco.DiscoTest" time="0.0"/>
+    <testcase name="testParaComprobarPerimetroExterior" classname="ar.edu.unlam.pb2.tpdisco.DiscoTest" time="0.0"/>
+  </testsuite>
+</testrun>

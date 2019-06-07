@@ -1,0 +1,21 @@
+package ar.edu.unlam.pb2.persona;
+
+import org.junit.Test;
+
+public class AscensorTest {
+	
+	@Test
+	public void testParaMeterUnaPersonaEnLaLista() {
+		
+		Ascensor miAscensor = new Ascensor(600, 5, null);
+		Persona tipito = new Persona(12345678, "Gomez", 80.0);
+		
+		miAscensor.subirPersona(tipito);
+		
+		
+		
+	}
+	
+	
+
+}

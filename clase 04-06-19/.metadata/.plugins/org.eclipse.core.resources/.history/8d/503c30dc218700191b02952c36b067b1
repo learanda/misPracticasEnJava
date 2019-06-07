@@ -1,0 +1,45 @@
+package ar.edu.unlam.pb2.persona;
+
+import java.util.ArrayList;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class AscensorTest {
+	
+	@Test
+	public void testParaMeterUnaPersonaEnLaLista() {
+		
+		Ascensor miAscensor = new Ascensor(600, 5, null);
+		Persona tipito = new Persona(12345678, "Gomez", 80.0);
+		
+		miAscensor.subirPersona(tipito);
+		
+		Integer valorEsperado = 1;
+		Integer valorObtenido = miAscensor.obtenerCantidadPersonas();
+		
+		Assert.assertEquals(valorEsperado, valorObtenido);
+		
+	}
+	
+	
+	@Test
+	public void testParaVerLaLista() {
+		
+		Ascensor miAscensor = new Ascensor(600, 5, null);
+		Persona tipito = new Persona(12345678, "Gomez", 80.0);
+		Persona tipitoDos = new Persona(12345999, "Lopez", 90.0);
+		
+		miAscensor.subirPersona(tipito);
+		miAscensor.subirPersona(tipitoDos);
+		
+		Integer valorEsperado = ;
+		ArrayList valorObtenido = miAscensor.getLista();
+		
+		Assert.assertEquals(valorEsperado, valorObtenido);
+		
+	}
+	
+	
+
+}

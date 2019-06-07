@@ -1,0 +1,40 @@
+package ar.edu.unlam.pb2.persona;
+
+public class Persona {
+	
+	private Integer dni;
+	private String apellido;
+	private Double peso;
+	
+	public Persona(Integer dni, String apellido, Double peso) {
+		this.dni = dni;
+		this.apellido = apellido;
+		this.peso = peso;
+	}
+
+	public Integer getDni() {
+		return dni;
+	}
+
+	public void setDni(Integer dni) {
+		this.dni = dni;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+
+	public Double getPeso() {
+		return peso;
+	}
+
+	public void setPeso(Double peso) {
+		this.peso = peso;
+	}
+	
+
+}

@@ -1,0 +1,31 @@
+package ar.edu.unlam.pb2.persona;
+
+public class Ascensor {
+	
+	private Integer capMaxima;
+	private Integer cantPersonasMax;
+	
+	public Ascensor(Integer capMaxima, Integer cantPersonasMax) {
+		this.capMaxima = capMaxima;
+		this.cantPersonasMax = cantPersonasMax;
+	}
+
+	public Integer getCapMaxima() {
+		return capMaxima;
+	}
+
+	public void setCapMaxima(Integer capMaxima) {
+		this.capMaxima = capMaxima;
+	}
+
+	public Integer getCantPersonasMax() {
+		return cantPersonasMax;
+	}
+
+	public void setCantPersonasMax(Integer cantPersonasMax) {
+		this.cantPersonasMax = cantPersonasMax;
+	}
+	
+	
+
+}

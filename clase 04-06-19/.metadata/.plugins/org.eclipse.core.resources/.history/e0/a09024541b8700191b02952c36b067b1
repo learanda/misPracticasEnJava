@@ -1,0 +1,37 @@
+package ar.edu.unlam.pb2.persona;
+
+import java.util.ArrayList;
+
+// los list admiten duplicados y los va agregando a donde van o se puede establecer la posicion
+// los set no admiten duplicados y se pueden ir ordenando en base a un algoritmo
+
+public class Ascensor {
+	
+	private Integer capMaxima;
+	private Integer cantPersonasMax;
+	ArrayList<Persona> lista = new ArrayList<Persona>();
+	
+	public Ascensor(Integer capMaxima, Integer cantPersonasMax) {
+		this.capMaxima = capMaxima;
+		this.cantPersonasMax = cantPersonasMax;
+	}
+
+	public Integer getCapMaxima() {
+		return capMaxima;
+	}
+
+	public void setCapMaxima(Integer capMaxima) {
+		this.capMaxima = capMaxima;
+	}
+
+	public Integer getCantPersonasMax() {
+		return cantPersonasMax;
+	}
+
+	public void setCantPersonasMax(Integer cantPersonasMax) {
+		this.cantPersonasMax = cantPersonasMax;
+	}
+	
+	
+
+}
